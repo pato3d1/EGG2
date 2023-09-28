@@ -1,0 +1,179 @@
+body{
+    background-color: #000000;
+    color: #ffffff;
+    font-family: 'Calibri';
+}
+
+/*Estilos barra de Navegacion*/
+
+.Navbar {
+    display: flex;
+    gap: -15px;
+    background-color: #333;
+    margin-top: -8px;
+    margin-left: -8px;
+    margin-right: -32px;
+}
+
+.barbutton1 {
+    height: 50px;
+    width: 200px;
+    margin-left: 630px;
+    text-align: center;
+    line-height: 50px;
+    font-weight: bold;
+}
+
+.barbutton2 {
+    height: 50px;
+    width: 200px;
+    text-align: center;
+    line-height: 50px;
+    font-weight: bold;
+}
+
+.barbutton3 {
+    height: 50px;
+    width: 200px;
+    text-align: center;
+    line-height: 50px;
+    font-weight: bold;
+}
+
+.Navbar a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.Navbar a:hover {
+    background-color: orange;
+    color: #333;
+    padding: 15px 50px;
+}
+
+
+/*Contenedores y contenidos de la columna izquierda y Derecha*/
+.Contenedor {
+    display: flex;
+    gap: 100px;
+}
+
+.derecha {
+    border: 1px solid rgba(255, 255, 255, 0.39);
+    width: 400px;
+    padding: 20px;
+    margin-left: 150px;
+    box-shadow: 1px 1px 20px rgba(255, 0, 0, 0.5)
+}
+
+.izquierda {
+    width: 400px;
+    border: 1px solid rgba(255, 255, 255, 0.39);
+    padding: 30px;
+    box-shadow: 1px 1px 20px rgba(255, 0, 0, 0.5)
+}
+
+.izquierda2 {
+    width: 400px;
+    border: 1px solid rgba(255, 255, 255, 0.39);
+    padding: 30px;
+    box-shadow: 1px 1px 20px rgba(255, 0, 0, 0.5)
+}
+
+
+/*Imagenes de cada columna*/
+.imagenes{
+    height: 300px;
+    width: 410px;
+}
+
+.BG{
+    margin-bottom: -9px;
+    margin-top: 10px;
+}
+
+
+/*Textos*/
+
+#Empanada {
+    font-size: 4em;
+    font-weight: 500;
+    color: #ffffff;
+    letter-spacing: 5px;
+    cursor: pointer;
+    transition: 1s; 
+    margin-top: 10px;
+    margin-bottom: 45px;
+}
+
+#Empanada:hover{
+    color: white;
+    text-shadow: 0 0 5px #ff0000,
+    0 0 25px #ff0000,
+    0 0 50px #ff0000,
+    0 0 100px #ff0000;
+}
+
+#Locro{
+    font-family: 'Calibri';
+    font-size: 25px;
+}
+
+
+.Intro{
+    text-align: center;
+}
+
+.titulos {
+    text-align: center;
+}
+
+.Cuerpo { 
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+.Foot{
+    text-align: center;
+    color: azure;
+    background-color: #333;
+    padding: 1px;
+    margin-top: 5px;
+    margin-bottom: -7px;
+    margin-left: -8px;
+    margin-right: -32px;
+    font-weight: bold;
+}
+
+.Foot:hover {
+    color: white;
+    text-shadow: 0 0 5px #ffffff,
+    0 0 25px #ffffff,
+    0 0 50px #ffffff,
+    0 0 100px #ffffff;
+}
+
+.intro {
+    text-align: center; /* Centra el texto horizontalmente */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centra el texto verticalmente */
+}
+
+.Cuerpo {
+    max-width: 1500px; /* Establece la longitud máxima del párrafo */
+    margin: 0 auto; /* Centra el párrafo horizontalmente */
+    margin-bottom: 30px;
+}
+
+.Video{
+    position: relative;
+    top: -30px;
+}
+
+.Baner{
+    position: relative;
+    bottom: 4px;
+}
+

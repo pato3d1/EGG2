@@ -1,0 +1,179 @@
+/*Con esto eliminamos las franjas blancas en la parte superior y en el pie de pagina*/
+body {
+    margin-top: -1%;
+    margin-bottom: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(228, 228, 228);
+    user-select: none;
+}
+
+/*Estructura en columnas Flexbox*/
+.Contenedor {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px;
+}
+
+.columna-izq {
+    flex: 0;
+    border-right: 3px solid #ccc;
+    background: #3572b8;
+    margin-left: -1%;
+    padding-left: 1%;
+    margin-top: 1%;
+    padding-right: 0%;
+}
+
+.columna-der {
+    flex: 2;
+    margin-top: 1%;
+    padding-top: -1%;
+    border-right: 1px#000000 solid;
+}
+
+/*Para editar toda etiqueta que tenga atributo id, se debe esbribir # y el nombre del ID en cuestion en el contenedor de CSS*/
+/*Texto columna Izquierda*/
+#Titulo {
+    font-size: 170%;
+    margin-top: 4%;
+    margin-bottom: 8%;
+    margin-left: 8%;
+    color: #ffffff;
+    font-weight: bolder;
+}
+
+.Foto {
+    margin-left: 0%;
+    padding-bottom: 10%;
+    margin-right: 12px;
+}
+
+/*Para editar toda etiqueta que tenga atributo class, se debe esbribir . y el nombre de la class en cuestion en el contenedor de CSS*/
+.Subtitulos {
+    font-weight: bolder;
+    font-size: 150%;
+    display: block;
+    background-color: #25548a; padding: 3%; /* Color de fondo que desees para cada fila */
+    margin-left: -5%;
+    margin-right: 0%;
+    color: #ffffff;
+    margin-top: 1%;
+}
+
+.Subtitulos2 {
+    font-size: medium;
+    margin-top: -10%;
+    margin-left: -1%;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.Subtitulos3 {
+    font-size: medium;
+    margin-top: -10%;
+    margin-left: -1%;
+    margin-bottom: 16%;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.Datos {
+    font-size: 85%;
+    margin-top: -10%;
+    margin-left: -1%;
+    padding-bottom: 10%;
+    color: #ffffff;
+}
+
+/*Se creo un contenedor adicional de datos porque sino no se lograba separar correctamente el texto entre el margen del ultimo dato de la catergoria y del titulo principal de la siguiente*/
+.Datos2{
+    font-size: 85%;
+    margin-top: -10%;
+    margin-left: -1%;
+    color: #ffffff;
+}
+
+.link {
+    color: #ccc;
+    text-decoration: none;
+}
+
+/*Textos columna izquierda*/
+#Titulo2 {
+    margin-left: 1%;
+    margin-top: 3px;
+    font-size: 140%;
+    border-top: 1px solid #3572b8;
+    border-bottom: 1px solid #3572b8;
+
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+#Perfpro {
+    margin-left: 1%;
+    margin-top: -10px;
+}
+
+/*Se creo un contenedor adicional para este item para facilitar la alineacion del texto*/
+#Perfpro2 {
+    margin-left: 1%;
+    margin-top: -15px;
+    margin-bottom: 15px;
+}
+
+/*Se elimino #Titulo3 porque se unifico el estilo en #Titulo2*/
+
+.Puestos {
+    margin-left: 1%;
+    font-size: 100%;
+    font-weight: bold;
+    margin-top: -12px;
+}
+
+.Direcciones {
+    margin-left: 1%;
+    font-size: 90%;
+    margin-top: -12px;
+    font-style: italic;
+}
+
+#Titulo4 {
+    margin-left: 1%;
+    margin-bottom: -10px;
+
+}
+ .lista-tareas {    
+    list-style: none;
+    margin-left: -23px;
+    margin-bottom: 30px;
+    margin-top: 11px;
+    
+ }
+
+ .lista-tareas2 {    
+    list-style: none;
+    margin-left: -23px;
+    margin-bottom: 15px;
+    margin-top: -28px;
+    
+ }
+
+/*Se creo otro contenedor de direcciones para poder alinear correctamente los items dentro de formacion academica*/
+.Direcciones2 {
+    margin-left: 1%;
+    font-size: 90%;
+    margin-top: -12px;
+    font-style: italic;
+    margin-bottom: 35px;
+}
+
+.Foto {
+    margin-left: 7px;
+}
+
+.Empanada{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
